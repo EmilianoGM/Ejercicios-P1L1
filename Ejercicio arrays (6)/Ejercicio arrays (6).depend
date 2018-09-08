@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\liliana\desktop\ejercicios\ejercicios\ejercicio arrays (6)\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1514140574 source:c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicios\ejercicio arrays (6)\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1536434966 source:c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicios\ejercicio arrays (6)\biblioteca.c
+	<stdio.h>
+	"Biblioteca.h"
+
+1536434922 c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicios\ejercicio arrays (6)\biblioteca.h
+
