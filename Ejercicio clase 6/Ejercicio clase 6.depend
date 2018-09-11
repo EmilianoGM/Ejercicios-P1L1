@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1536614759 source:c:\users\liliana\desktop\tecnicatura\ejercicio clase 6\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+	<ctype.h>
+
+1536614638 c:\users\liliana\desktop\tecnicatura\ejercicio clase 6\biblioteca.h
+
+1536615820 source:c:\users\liliana\desktop\tecnicatura\ejercicio clase 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Biblioteca.h"
+
