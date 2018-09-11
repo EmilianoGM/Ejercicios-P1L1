@@ -14,3 +14,18 @@
 	<ctype.h>
 	"Biblioteca.h"
 
+1536669744 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 6\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+	<ctype.h>
+
+1536669260 c:\users\alumno\desktop\ejercicios\ejercicio clase 6\biblioteca.h
+
+1536669687 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Biblioteca.h"
+

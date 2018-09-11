@@ -5,21 +5,28 @@
 
 void pedirCadenaCaracteres(char cadena[], int cantidadDeElementos, char mensaje[])
 {
+    char buffer[1024];
     printf("%s\n", mensaje);
     setbuf(stdin, NULL);
-    gets(cadena);
+    gets(buffer);
+    while(strlen(buffer) > 20)
+    {
+        printf("Error, reingrese:\n");
+        setbuf(stdin, NULL);
+        gets(buffer);
+    }
+    strcpy(cadena, buffer);
 }
 
-void capitalizarCadenaCaracteres(char cadena[], char cadenaAuxiliar[], int cantidadDeElementos)
+void capitalizarCadenaCaracteres(char cadena[], int cantidadDeElementos)
 {
-    strcpy(cadenaAuxiliar, cadena);
-    strlwr(cadenaAuxiliar);
-    cadenaAuxiliar[0] = toupper(cadenaAuxiliar[0]);
+    strlwr(cadena);
+    cadena[0] = toupper(cadena[0]);
     for(;cantidadDeElementos > 1; cantidadDeElementos--)
     {
-        if(cadenaAuxiliar[cantidadDeElementos - 1] == ' ')
+        if(cadena[cantidadDeElementos - 1] == ' ')
         {
-            cadenaAuxiliar[cantidadDeElementos] = toupper(cadenaAuxiliar[cantidadDeElementos]);
+            cadena[cantidadDeElementos] = toupper(cadena[cantidadDeElementos]);
         }
     }
 }
