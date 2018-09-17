@@ -104,3 +104,67 @@ void mostrarListadoMayoresNotas(eAlumno listado[], int tam)
         }
     }
 }
+
+void mostrarListadoNombreConP(eAlumno listado[], int tam)
+{
+    int i;
+    int bandera = 0;
+
+    for(i = 0;i < tam; i++)
+    {
+        if(listado[i].nombre[0] == 'p')
+        {
+            mostrarAlumno(listado[i]);
+            bandera = 1;
+        }
+    }
+    if(bandera == 0)
+    {
+        printf("No hay alumnos que se llamen Juan.\n");
+    }
+}
+
+void mostrarListadoNombreJuan(eAlumno listado[], int tam)
+{
+    int i;
+    int bandera = 0;
+    for(i = 0;i < tam; i++)
+    {
+        if(strcmp(listado[i].nombre, "Juan") == 0)
+        {
+            mostrarAlumno(listado[i]);
+            bandera = 1;
+        }
+    }
+    if(bandera == 0)
+    {
+        printf("No hay alumnos que se llamen Juan.\n");
+    }
+}
+
+void modificarListadoNotaPorLegajo(eAlumno listado[], int tam)
+{
+    int legajoAux;
+    printf("Legajo a buscar:\n");
+    setbuf(stdin, NULL);
+    scanf("%d", &legajoAux);
+
+    int i;
+    int bandera = 0;
+    for(i = 0;i < tam; i++)
+    {
+        if(listado[i].legajo == legajoAux)
+        {
+            bandera = 1;
+        }
+    }
+    if(bandera == 1)
+    {
+        printf("Introduzca la nueva nota:\n");
+        setbuf(stdin, NULL);
+        scanf("%d", &listado[i].nota);
+    } else
+    {
+        printf("Ese legajo no existe.\n");
+    }
+}

@@ -21,4 +21,8 @@ void mostrarListadoAprobados(eAlumno [], int);
 
 void mostrarListadoMayoresNotas(eAlumno [], int);
 
-void mostrarListadoNombreConJ(eAlumno [], int);
+void mostrarListadoNombreComienceConP(eAlumno [], int);
+
+void mostrarListadoNombreJuan(eAlumno [], int);
+
+void modificarListadoPorLegajo(eAlumno [], int);

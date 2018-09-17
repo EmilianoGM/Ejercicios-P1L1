@@ -28,14 +28,17 @@ int main()
 
     cargarListado(listadoMain, A);
 
-    mostrarListado(listadoMain, A);
+    listadoMain[0].nota = 145;
 
+    mostrarListado(listadoMain, A);
+    /*
     printf("\n");
 
     ordenarListadoPorNombre(listadoMain, A);
 
     mostrarListado(listadoMain, A);
 
+    */
     return 0;
 }
 
