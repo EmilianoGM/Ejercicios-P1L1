@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1537195888 source:c:\users\alumno\desktop\array dos dimensiones\biblioteca.c
+
+1537205195 source:c:\users\alumno\desktop\array dos dimensiones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
