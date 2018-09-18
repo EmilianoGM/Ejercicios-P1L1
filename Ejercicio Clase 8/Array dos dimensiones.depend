@@ -27,3 +27,16 @@
 
 1537216340 c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicio clase 8\biblioteca.h
 
+1537272960 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 8\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537272960 c:\users\alumno\desktop\ejercicios\ejercicio clase 8\biblioteca.h
+
+1537272960 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblioteca.h"
+

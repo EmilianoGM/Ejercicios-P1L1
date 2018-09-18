@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537275521 source:c:\users\alumno\desktop\ejercicios\clase 9 carga aleatotia-secuencial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

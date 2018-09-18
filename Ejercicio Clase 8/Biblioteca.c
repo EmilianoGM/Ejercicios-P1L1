@@ -148,7 +148,13 @@ void modificarListadoNotaPorLegajo(eAlumno listado[], int tam)
     printf("Legajo a buscar:\n");
     setbuf(stdin, NULL);
     scanf("%d", &legajoAux);
-
+    /**
+    mostrar el alumno
+    pedir nueva nota
+    pregunte si esta seguro de realizar
+    si hago la asignacion
+    no aviso que se cancelo
+    */
     int i;
     int bandera = 0;
     for(i = 0;i < tam; i++)
