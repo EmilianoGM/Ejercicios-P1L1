@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1537749509 source:c:\users\liliana\desktop\tecnicatura\comprobaciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1537749757 c:\users\liliana\desktop\tecnicatura\comprobaciones\biblioteca.h
+
+1537749757 source:c:\users\liliana\desktop\tecnicatura\comprobaciones\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
