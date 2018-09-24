@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1537195888 source:c:\users\alumno\desktop\array dos dimensiones\biblioteca.c
+
+1537205195 source:c:\users\alumno\desktop\array dos dimensiones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1537206722 source:c:\users\alumno\desktop\ejercicio clase 8\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537208370 c:\users\alumno\desktop\ejercicio clase 8\biblioteca.h
+
+1537207255 source:c:\users\alumno\desktop\ejercicio clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537214293 source:c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicio clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537216340 c:\users\liliana\desktop\tecnicatura\ejercicios\ejercicio clase 8\biblioteca.h
+
+1537272960 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 8\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537272960 c:\users\alumno\desktop\ejercicios\ejercicio clase 8\biblioteca.h
+
+1537272960 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537789320 source:c:\users\alumno\desktop\ejercicios\ejercicio clase 10\biblioteca.c
+	<stdio.h>
+	<string.h>
+	"Biblioteca.h"
+
+1537790464 c:\users\alumno\desktop\ejercicios\ejercicio clase 10\biblioteca.h
+
