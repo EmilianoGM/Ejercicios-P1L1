@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1538484962 source:c:\users\alumno\desktop\parcial laboratorio 1\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1538483991 c:\users\alumno\desktop\parcial laboratorio 1\biblioteca.h
+
+1538483500 source:c:\users\alumno\desktop\parcial laboratorio 1\director.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Pelicula.h"
+	"Biblioteca.h"
+
+1538483480 c:\users\alumno\desktop\parcial laboratorio 1\pelicula.h
+
+1538484962 source:c:\users\alumno\desktop\parcial laboratorio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Pelicula.h"
+	"Biblioteca.h"
+
+1538483991 source:c:\users\alumno\desktop\parcial laboratorio 1\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Pelicula.h"
+	"Biblioteca.h"
+
