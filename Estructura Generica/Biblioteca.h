@@ -118,10 +118,30 @@ int comprobarArrayAlfanumerica(char arrayAlfanumerica[], int tamanio);
 
 /** \brief
  *
+ * \param arrayNumerica[] int
+ * \param tamanio int
+ * \return void
+ *
+ */
+void ordenarArrayNumerica(int arrayNumerica[],int tamanio);
+
+/** \brief
+ *
  * \param cuit[] char
  * \param mensaje[] char
  * \param mensajeError[] char
  * \return void
  *
  */
+
+/** \brief
+ *
+ * \param arrayDeCaracteres[] char
+ * \param tamanio int
+ * \param tamanioDos int
+ * \return void
+ *
+ */
+void ordenarArrayAlfabeticamente(char arrayDeCaracteres[],int tamanio, int tamanioDos);
+
 void pedirCuit(char cuit[], char mensaje[], char mensajeError[]);

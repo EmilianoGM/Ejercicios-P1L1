@@ -290,6 +290,43 @@ int comprobarArrayAlfanumerica(char arrayAlfanumerica[], int tamanio)
     }
     return retorno;
 }
+
+void ordenarArrayNumerica(int arrayNumerica[],int tamanio)
+{
+    int indice;
+    int j;
+    int auxiliar;
+    for(indice = 1; indice < tamanio; indice++)
+    {
+        auxiliar = arrayNumerica[indice];
+        j = indice - 1;
+        while(j>=0 && auxiliar < arrayNumerica[j])
+        {
+            arrayNumerica[j+1] = arrayNumerica[j];
+            j--;
+        }
+        arrayNumerica[j+1] = auxiliar;
+    }
+}
+
+void ordenarArrayAlfabeticamente(char arrayDeCaracteres[],int tamanio, int tamanioDos)
+{
+    int indice;
+    int j;
+    char auxiliar[tamanioDos];
+    for(indice = 1; indice < tamanio; indice++)
+    {
+        strcpy(auxiliar, arrayDeCaracteres[indice]);
+        j = indice - 1;
+        while(j>=0 && strcmp(auxiliar, arrayDeCaracteres[j]) < 0)
+        {
+            strcpy(arrayDeCaracteres[j+1], arrayDeCaracteres[j]);
+            j--;
+        }
+        strcpy(arrayDeCaracteres[j+1], auxiliar);
+    }
+}
+
 void pedirCuit(char cuit[], char mensaje[], char mensajeError[])
 {
     int error;
