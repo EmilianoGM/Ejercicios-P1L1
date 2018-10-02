@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\liliana\desktop\tecnicatura\estructura generica\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1538428831 source:c:\users\liliana\desktop\tecnicatura\estructura generica\estructura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Estructura.h"
+	"Biblioteca.h"
+
+1538429216 c:\users\liliana\desktop\tecnicatura\estructura generica\estructura.h
+
+1538450489 source:c:\users\liliana\desktop\tecnicatura\estructura generica\biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"Biblioteca.h"
+
+1538450466 c:\users\liliana\desktop\tecnicatura\estructura generica\biblioteca.h
+
